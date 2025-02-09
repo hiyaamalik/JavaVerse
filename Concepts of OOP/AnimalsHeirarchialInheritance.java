@@ -31,3 +31,4 @@ public class AnimalsHeirarchialInheritance {
         System.out.println("Pluto is a dog.");
     }
 }
+
