@@ -1,7 +1,7 @@
 import java.util.*;
 
 class Shape {
-    public void area() {
+    public void area(int h, int l) {
         System.out.println("Prints Area");
     }
 }
