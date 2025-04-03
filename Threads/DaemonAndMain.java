@@ -16,11 +16,11 @@ class MainThread extends Thread{
   public void run(){
     for(int i = 0; i<=100; i++){
       System.out.println("Main thread running");
-    }
-    try{
-      Thread.sleep(2000);
-    }catch (InterruptedException e){
-      System.out.println(e.getMessage());
+      try{
+        Thread.sleep(2000);
+      }catch (InterruptedException e){
+        System.out.println(e.getMessage());
+      }
     }
   }
 }
